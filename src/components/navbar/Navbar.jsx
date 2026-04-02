@@ -50,7 +50,7 @@ const Navbar = () => {
               <a>About</a>
             </li>
             <li>
-              <a>Contact</a>
+              <a>Contact  </a>
             </li>
           </ul>
         </div>
