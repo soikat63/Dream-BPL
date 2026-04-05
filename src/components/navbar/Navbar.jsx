@@ -1,15 +1,18 @@
 import { useState } from "react";
 import Currency from "../../assets/Currency.png";
+import Nav_logo from '../../assets/Nav-Logo.png'
 
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <div className="navbar bg-base-100 shadow-sm px-4 relative">
+    <div className="navbar py-4 relative w-[100%] lg:max-w-10/12 px-5 md:px-9  lg:px-0 mx-auto">
       {/* LEFT */}
       <div className="flex-1">
-        <a className="btn btn-ghost text-xl">daisyUI</a>
+        <a href="#">
+          <img src={Nav_logo} alt="Nav_logo" />
+        </a>
       </div>
 
       {/* RIGHT */}
@@ -50,7 +53,7 @@ const Navbar = () => {
               <a>About</a>
             </li>
             <li>
-              <a>Contact  </a>
+              <a>Contact </a>
             </li>
           </ul>
         </div>

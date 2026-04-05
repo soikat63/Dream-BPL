@@ -6,8 +6,11 @@ function App() {
 
   return (
     <>
+      <div  >
+
       <Navbar />
       <Banner/>
+      </div>
     </>
   );
 }
